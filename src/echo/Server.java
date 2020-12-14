@@ -20,6 +20,7 @@ public class Server {
 
 		//아이피 포트번호
 		//바인드 192.168.219.101   10001
+		//serverSocket.bind(new InetSocketAddress("192.168.219.101", 10001));
 		serverSocket.bind(new InetSocketAddress("192.168.219.101", 10001));
 				
 		System.out.println("<서버시작>");
